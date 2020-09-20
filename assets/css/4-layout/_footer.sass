@@ -1,0 +1,31 @@
+.footer
+    //bottom: 0
+    font-size: $font-size-normal
+    color: $text_icons
+    text-align: center !important
+    //margin: 0
+
+    &:before
+        border-bottom: 125px solid $header-footer-bg
+        border-right: 100px solid transparent
+        //height: 0
+        display: block
+        content: ""
+        background-color: transparent
+        opacity: 0.8
+        position: absolute
+        left: 0px
+        right: 0px
+        top: 0
+        bottom: 0
+        z-index: -1
+
+#footer_social
+    height: 60px
+    width: 60px
+    margin: 40px 20px 30px  20px
+    transition: all 200ms ease-in
+    transform: scale(1)
+
+    &:hover
+        transform: scale(1.2)
